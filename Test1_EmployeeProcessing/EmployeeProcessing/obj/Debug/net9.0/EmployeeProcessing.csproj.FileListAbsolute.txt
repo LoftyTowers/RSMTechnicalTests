@@ -1,0 +1,14 @@
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\bin\Debug\net9.0\EmployeeProcessing.exe
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\bin\Debug\net9.0\EmployeeProcessing.deps.json
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\bin\Debug\net9.0\EmployeeProcessing.runtimeconfig.json
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\bin\Debug\net9.0\EmployeeProcessing.dll
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\bin\Debug\net9.0\EmployeeProcessing.pdb
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\EmployeeProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\EmployeeProcessing.AssemblyInfoInputs.cache
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\EmployeeProcessing.AssemblyInfo.cs
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\EmployeeProcessing.csproj.CoreCompileInputs.cache
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\EmployeeProcessing.dll
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\refint\EmployeeProcessing.dll
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\EmployeeProcessing.pdb
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\EmployeeProcessing.genruntimeconfig.cache
+C:\Users\peter\TechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing\obj\Debug\net9.0\ref\EmployeeProcessing.dll

@@ -1,0 +1,14 @@
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\bin\Debug\net9.0\AlgorithmChallenges.exe
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\bin\Debug\net9.0\AlgorithmChallenges.deps.json
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\bin\Debug\net9.0\AlgorithmChallenges.runtimeconfig.json
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\bin\Debug\net9.0\AlgorithmChallenges.dll
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\bin\Debug\net9.0\AlgorithmChallenges.pdb
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\AlgorithmChallenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\AlgorithmChallenges.AssemblyInfoInputs.cache
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\AlgorithmChallenges.AssemblyInfo.cs
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\AlgorithmChallenges.csproj.CoreCompileInputs.cache
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\AlgorithmChallenges.dll
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\refint\AlgorithmChallenges.dll
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\AlgorithmChallenges.pdb
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\AlgorithmChallenges.genruntimeconfig.cache
+C:\Users\peter\TechnicalTests\Test3_AlgorithmChallenges\AlgorithmChallenges\obj\Debug\net9.0\ref\AlgorithmChallenges.dll

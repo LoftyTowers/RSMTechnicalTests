@@ -1,0 +1,14 @@
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\bin\Debug\net9.0\DataAggregation.exe
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\bin\Debug\net9.0\DataAggregation.deps.json
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\bin\Debug\net9.0\DataAggregation.runtimeconfig.json
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\bin\Debug\net9.0\DataAggregation.dll
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\bin\Debug\net9.0\DataAggregation.pdb
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\DataAggregation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\DataAggregation.AssemblyInfoInputs.cache
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\DataAggregation.AssemblyInfo.cs
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\DataAggregation.csproj.CoreCompileInputs.cache
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\DataAggregation.dll
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\refint\DataAggregation.dll
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\DataAggregation.pdb
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\DataAggregation.genruntimeconfig.cache
+C:\Users\peter\TechnicalTests\Test2_DataAggregation\DataAggregation\obj\Debug\net9.0\ref\DataAggregation.dll
