@@ -11,7 +11,8 @@ namespace EmployeeProcessing
 
     public enum EmployeeStatus
     {
-        Active,
-        Inactive
+        Unknown = 0,
+        Active = 10,
+        Inactive = 20
     }   
 }

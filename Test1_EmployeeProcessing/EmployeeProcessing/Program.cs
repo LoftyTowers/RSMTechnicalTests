@@ -26,7 +26,16 @@ namespace EmployeeProcessing
             return new List<Employee> {
                 new Employee { Name = "John Doe", Status = EmployeeStatus.Active, Salary = 50000.0 },
                 new Employee { Name = "Jane Smith", Status = EmployeeStatus.Inactive, Salary = 60000.0 },
-                new Employee { Name = "Alice Brown", Status = EmployeeStatus.Active, Salary = 70000.0 }
+                new Employee { Name = "Alice Brown", Status = EmployeeStatus.Active, Salary = 70000.0 },
+                new Employee { Name = "Bob Johnson", Status = EmployeeStatus.Active, Salary = 50000.0 },
+                new Employee { Name = "Eve White", Status = EmployeeStatus.Inactive, Salary = 65000.0 },
+                new Employee { Name = "Fred Bjornson", Status = EmployeeStatus.Unknown, Salary = 50000.0 },
+                new Employee { Name = "Maggy Ince", Status = EmployeeStatus.Inactive, Salary = 60000.0 },
+                new Employee { Name = "Janni Pink", Status = EmployeeStatus.Active, Salary = 70000.0 },
+                new Employee { Name = "Rob Fredrick", Status = EmployeeStatus.Unknown, Salary = 50000.0 },
+                new Employee { Name = "Stacy Stinson", Status = EmployeeStatus.Inactive, Salary = 65000.0 },
+                new Employee { Name = "Pete Style", Salary = 65000.0 },
+                new Employee { Name = "Chrissy Crossy", Status = EmployeeStatus.Active }
             };
         }
     }
