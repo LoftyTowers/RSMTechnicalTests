@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\peter\\TechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj": {}
+    "F:\\Programming\\RSMTechnicalTests\\RSMTechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\peter\\TechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj": {
+    "F:\\Programming\\RSMTechnicalTests\\RSMTechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peter\\TechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj",
+        "projectUniqueName": "F:\\Programming\\RSMTechnicalTests\\RSMTechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj",
         "projectName": "DataAggregation",
-        "projectPath": "C:\\Users\\peter\\TechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj",
+        "projectPath": "F:\\Programming\\RSMTechnicalTests\\RSMTechnicalTests\\Test2_DataAggregation\\DataAggregation\\DataAggregation.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peter\\TechnicalTests\\Test2_DataAggregation\\DataAggregation\\obj\\",
+        "outputPath": "F:\\Programming\\RSMTechnicalTests\\RSMTechnicalTests\\Test2_DataAggregation\\DataAggregation\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -59,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
