@@ -37,8 +37,8 @@ namespace EmployeeProcessing
                 new Employee { Name = "Stacy Stinson", Status = EmployeeStatus.Inactive, Salary = 65000.0 },
                 new Employee { Name = "Pete Style", Salary = 65000.0 },
                 new Employee { Name = "Chrissy Crossy", Status = EmployeeStatus.Active },
-                new Employee { Name = "Chrissy Crossy", Status = EmployeeStatus.Inactive },
-                new Employee { Name = "Chrissy Crossy", Status = EmployeeStatus.Unknown }
+                new Employee { Name = "Sam Plant", Status = EmployeeStatus.Inactive },
+                new Employee { Name = "Rich Screen", Status = EmployeeStatus.Unknown }
             };
         }
     }

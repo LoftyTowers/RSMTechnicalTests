@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using EmployeeProcessing;
-using Employee;
 
 namespace EmployeeProcessing.Tests
 {
@@ -23,37 +22,24 @@ namespace EmployeeProcessing.Tests
                 new Employee { Name = "Stacy Stinson", Status = EmployeeStatus.Inactive, Salary = 65000.0 },
                 new Employee { Name = "Pete Style", Salary = 65000.0 },
                 new Employee { Name = "Chrissy Crossy", Status = EmployeeStatus.Active },
-                new Employee { Name = "Chrissy Crossy", Status = EmployeeStatus.Inactive },
-                new Employee { Name = "Chrissy Crossy", Status = EmployeeStatus.Unknown }
+                new Employee { Name = "Sam Plant", Status = EmployeeStatus.Inactive },
+                new Employee { Name = "Rich Screen", Status = EmployeeStatus.Unknown }
             };
-
-        [Test]
-        public void CalculateEmployeeSalary_ValidEmployee_ReturnsExpectedSalary()
-        {
-            // Arrange
-            var employee = new Employee { Name = "John", HourlyRate = 20, HoursWorked = 40 };
-            var processor = new EmployeeProcessor();
-
-            // Act
-            var salary = processor.CalculateSalary(employee);
-
-            // Assert
-            Assert.AreEqual(800, salary);
         }
 
-        // test that the CalculateSalary method returns the expected salary for an employee with an hourly rate of 0
+        // test that the CalculateAverageSalary method on EmployeeProcessor returns the expected average salary for all employees
         [Test]
-        public void CalculateEmployeeSalary_HourlyRateZero_ReturnsZero()
+        public void CalculateAverageSalary_ReturnsExpectedAverageSalary()
         {
             // Arrange
-            var employee = new Employee { Name = "John", HourlyRate = 0, HoursWorked = 40 };
-            var processor = new EmployeeProcessor();
+            var employeeProcessor = new EmployeeProcessor();
+            var employees = GetSampleData();
 
             // Act
-            var salary = processor.CalculateSalary(employee);
+            var result = employeeProcessor.CalculateAverageSalary(employees);
 
             // Assert
-            Assert.AreEqual(0, salary);
+            Assert.Equals(employees.Average(e => e.Salary), result);
         }
     }
 }

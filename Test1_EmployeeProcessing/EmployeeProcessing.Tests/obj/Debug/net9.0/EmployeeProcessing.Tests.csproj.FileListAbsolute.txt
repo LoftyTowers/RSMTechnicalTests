@@ -1,0 +1,8 @@
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_EmployeeProcessing.Tests
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_EmployeeProcessing.Tests
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\obj\Debug\net9.0\EmployeeProcessing.Tests.csproj.AssemblyReference.cache
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\obj\Debug\net9.0\EmployeeProcessing.Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\obj\Debug\net9.0\EmployeeProcessing.Tests.AssemblyInfoInputs.cache
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\obj\Debug\net9.0\EmployeeProcessing.Tests.AssemblyInfo.cs
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\obj\Debug\net9.0\EmployeeProcessing.Tests.csproj.CoreCompileInputs.cache
+F:\Programming\RSMTechnicalTests\RSMTechnicalTests\Test1_EmployeeProcessing\EmployeeProcessing.Tests\obj\Debug\net9.0\EmployeeProcessing.Tests.sourcelink.json
