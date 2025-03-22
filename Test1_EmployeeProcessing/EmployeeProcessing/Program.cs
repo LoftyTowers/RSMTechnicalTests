@@ -11,9 +11,10 @@ namespace EmployeeProcessing
             {
                 Console.WriteLine("Employee Processing App");
                 var employeeProcessor = new EmployeeProcessor();
-                var result = employeeProcessor.ProcessEmployeeRecords(GetSampleData());
-                Console.WriteLine("Active Employees: " + string.Join(", ", result.ActiveEmployees));
-                Console.WriteLine("Average Salary: " + result.AverageSalary);
+                var activeEmployees = employeeProcessor.ProcessEmployeeRecords(GetSampleData());
+                var averageSalary = employeeProcessor.CalculateAverageSalary(activeEmployees);
+                Console.WriteLine("Active Employees: " + string.Join(", ", activeEmployees));
+                Console.WriteLine("Average Salary: " + averageSalary);
             }
             catch (Exception ex)
             {

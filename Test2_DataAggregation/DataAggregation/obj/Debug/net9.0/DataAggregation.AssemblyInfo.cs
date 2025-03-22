@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataAggregation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28b247c56b01a1310ec49762919301b779cdbd57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2bf3d510245074ac073939de991cd564d2ca1f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataAggregation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataAggregation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

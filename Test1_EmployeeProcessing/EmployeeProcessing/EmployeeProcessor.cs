@@ -2,11 +2,31 @@ namespace EmployeeProcessing
 {
     public class EmployeeProcessor
     {
-        public (List<string> ActiveEmployees, double AverageSalary) ProcessEmployeeRecords(List<Employee> employees)
+        public List<Employee> ProcessEmployeeRecords(List<Employee> employees)
         {
-            var activeEmployees = employees.Where(e => e.Status == EmployeeStatus.Active).Select(e => e.Name).ToList();
-            var averageSalary = employees.Average(e => e.Salary);
-            return (activeEmployees, averageSalary);
+            try
+            {
+                var activeEmployees = employees.Where(e => e.Status == EmployeeStatus.Active).ToList();
+                return activeEmployees;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while processing employee records: {ex.Message}");
+                throw new Exception("An error occurred while processing employee records.", ex);
+            }
+        }
+
+        public double CalculateAverageSalary(List<Employee> employees)
+        {
+            try
+            {
+                return employees.Average(e => e.Salary);            
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while calculating the average employee salary: { ex.Message }");
+                throw new Exception("An error occurred while calculating the average employee salary.", ex);
+            }
         }
     }
 }
