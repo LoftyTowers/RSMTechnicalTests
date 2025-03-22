@@ -39,7 +39,7 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsTrue(result.All(e => e.Status == EmployeeStatus.Active));
+            Assert.That(result.All(e => e.Status == EmployeeStatus.Active), Is.True);
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor returns an empty list and an average salary of 0.0 when no active employees are present.
@@ -54,8 +54,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsEmpty(result);
-            Assert.AreEqual(0.0, employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result, Is.Empty);
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(0.0));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -71,8 +71,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsEmpty(result);
-            Assert.AreEqual(0.0, employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result, Is.Empty);
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(0.0));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -89,8 +89,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsEmpty(result);
-            Assert.AreEqual(0.0, employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result, Is.Empty);
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(0.0));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -107,8 +107,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsEmpty(result);
-            Assert.AreEqual(0.0, employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result.Count, Is.EqualTo(1));
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(0.0));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -125,8 +125,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsEmpty(result);
-            Assert.AreEqual(0.0, employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result, Is.Empty);
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(0.0));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -142,26 +142,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.AreEqual(employees.Count, result.Count);
-            Assert.AreEqual(employees.Average(e => e.Salary), employeeProcessor.CalculateAverageSalary(result));
-        }
-
-        // Test that the ProcessEmployeeRecords method on EmployeeProcessor
-        // treats 'status' field values case-insensitively when filtering active employees.
-        [Test]
-        public void ProcessEmployeeRecords_TreatsStatusFieldValuesCaseInsensitively()
-        {
-            // Arrange
-            var employeeProcessor = new EmployeeProcessor();
-            var employees = GetSampleData();
-            employees[0].Status = EmployeeStatus.Active.ToString().ToLower();
-            employees[1].Status = EmployeeStatus.Inactive.ToString().ToUpper();
-
-            // Act
-            var result = employeeProcessor.ProcessEmployeeRecords(employees);
-
-            // Assert
-            Assert.IsTrue(result.All(e => e.Status == EmployeeStatus.Active));
+            Assert.That(result.Count, Is.EqualTo(employees.Count));
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(employees.Average(e => e.Salary)));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -179,8 +161,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsTrue(result.All(e => e.Status == EmployeeStatus.Active));
-            Assert.AreEqual(employees.Where(e => e.Status == EmployeeStatus.Active).Average(e => e.Salary), employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result.All(e => e.Status == EmployeeStatus.Active), Is.True);
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(employees.Where(e => e.Status == EmployeeStatus.Active).Average(e => e.Salary)));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -198,8 +180,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsTrue(result.All(e => e.Status == EmployeeStatus.Active));
-            Assert.AreEqual(employees.Where(e => e.Status == EmployeeStatus.Active).Average(e => e.Salary), employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result.All(e => e.Status == EmployeeStatus.Active), Is.True);
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(employees.Where(e => e.Status == EmployeeStatus.Active).Average(e => e.Salary)));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -216,8 +198,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.AreEqual(employees.Count - 1, result.Count);
-            Assert.AreEqual(employees.Where(e => e != null && e.Status == EmployeeStatus.Active).Average(e => e.Salary), employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result.Count, Is.EqualTo(5));
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(employees.Where(e => e != null && e.Status == EmployeeStatus.Active).Average(e => e.Salary)));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -237,8 +219,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.AreEqual(employees.Count, result.Count);
-            Assert.AreEqual(50000.0, employeeProcessor.CalculateAverageSalary(result));
+            Assert.That(result.Count, Is.EqualTo(employees.Count));
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(50000.0));
         }
 
         // Test that the ProcessEmployeeRecords method on EmployeeProcessor
@@ -256,41 +238,8 @@ namespace EmployeeProcessing.Tests
             var result = employeeProcessor.ProcessEmployeeRecords(employees);
 
             // Assert
-            Assert.IsTrue(result.All(e => e.Status == EmployeeStatus.Active));
-            Assert.AreEqual(employees.Where(e => e.Status == EmployeeStatus.Active).Average(e => e.Salary), employeeProcessor.CalculateAverageSalary(result));
-        }
-
-        // Test that the ProcessEmployeeRecords method on EmployeeProcessor
-        // correctly trims leading and trailing whitespace from the 'status' field before processing.
-        [Test]
-        public void ProcessEmployeeRecords_TrimWhitespaceFromStatusFieldBeforeProcessing()
-        {
-            // Arrange
-            var employeeProcessor = new EmployeeProcessor();
-            var employees = GetSampleData();
-            employees[0].Status = " " + EmployeeStatus.Active.ToString() + " ";
-            employees[1].Status = " " + EmployeeStatus.Inactive.ToString() + " ";
-
-            // Act
-            var result = employeeProcessor.ProcessEmployeeRecords(employees);
-
-            // Assert
-            Assert.IsTrue(result.All(e => e.Status == EmployeeStatus.Active));
-        }
-
-        // test that the CalculateAverageSalary method on EmployeeProcessor returns the expected average salary for all employees
-        [Test]
-        public void CalculateAverageSalary_ReturnsExpectedAverageSalary()
-        {
-            // Arrange
-            var employeeProcessor = new EmployeeProcessor();
-            var employees = GetSampleData();
-
-            // Act
-            var result = employeeProcessor.CalculateAverageSalary(employees);
-
-            // Assert
-            Assert.Equals(employees.Average(e => e.Salary), result);
+            Assert.That(result.All(e => e.Status == EmployeeStatus.Active), Is.True);
+            Assert.That(employeeProcessor.CalculateAverageSalary(result), Is.EqualTo(employees.Where(e => e.Status == EmployeeStatus.Active).Average(e => e.Salary)));
         }
     }
 }

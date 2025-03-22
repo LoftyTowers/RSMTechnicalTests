@@ -12,8 +12,7 @@ namespace EmployeeProcessing
         {
             try
             {
-                var activeEmployees = employees.Where(e => e.Status == EmployeeStatus.Active).ToList();
-                return activeEmployees;
+                return employees.Where(e => e != null && e.Status == EmployeeStatus.Active && (!double.IsNaN(e.Salary) || e.Salary >= 0)).ToList();
             }
             catch (Exception ex)
             {
@@ -32,6 +31,10 @@ namespace EmployeeProcessing
         {
             try
             {
+                if (employees.Count <= 0)
+                {
+                    return 0.0;
+                }
                 return employees.Average(e => e.Salary);
             }
             catch (Exception ex)
